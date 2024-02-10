@@ -5,28 +5,30 @@
     font-weight: bold;
     border: 1px solid brown;
     border-radius: 10px;
-    margin-bottom: 10px;
-    padding: 10px;
+    margin: 10px 0px 0px 0px;
+    padding: 10px 14px;
     display: block;
 }
 
 .impl-btn {
     background-color: turquoise;
+    font-size: 1.1em;
     color: black;
     border: 1px solid blue;
-    border-radius: 5px;
-    margin-bottom: 5x;
-    padding: 5px;
+    border-radius: 10px;
+    margin: 3px 0px 0px 30px;
+    padding: 5px 8px;
     display: block;
 }
 
 .reason-btn {
     background-color: greenyellow;
+    font-size: 1.1em;
     color: black;
     border: 1px solid green;
-    border-radius: 5px;
-    margin-bottom: 5x;
-    padding: 5px;
+    border-radius: 10px;
+    margin: 3px 0px 0px 30px;
+    padding: 5px 8px;
     display: block;
 }
 

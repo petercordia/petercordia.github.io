@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Conservative Socialists</title>
+</head>
+<body>
+    <header>
+        <h1 style="display: inline-block; color: darkred; font-family: Arial, sans-serif;">
+            Conservative Socialists</h1>
+        <img src="hammer_and_anvil.png" alt="SC Logo" style="display: inline-block; height: 40px;">
+    </header>
+    <main>
+        <button class="slogan-btn" onclick="toggleExpand(this)">
+            F16s to Ukraine</button>
+        <div class="expand-section">
+            <button class="reason-btn">
+                defeat Russia</button>
+            <button class="impl-btn">
+                F16s to Ukraine</button>
+        </div>
+        <button class="slogan-btn" onclick="toggleExpand(this)">
+            Build social housing until everyone who wants it can get it</button>
+        <div class="expand-section">
+            <p>- reduce the rent and house price</p>
+            <p>- discuss reducing the quality of social housing if that is necessary</p>
+        </div>
+        <button class="slogan-btn" onclick="toggleExpand(this)">
+            Maximum fees for monopolist marketplaces</button>
+        <div class="expand-section">
+            <p>- Amazon, Android App store, Apple store, Steam</p>
+        </div>
+    </main>
+    <script>
+        function toggleExpand(btn) {
+            btn.nextElementSibling.classList.toggle("expanded");
+        }
+    </script>
+
+<!-- creddits: -->
+<p style="margin-bottom:3cm;"> </p>
+<a href="https://www.flaticon.com/free-icons/anvil" title="anvil icons">Anvil icons created by Agung Rama - Flaticon</a>
+
+</body>
+</html>
